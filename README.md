@@ -8,7 +8,7 @@ To design and evaluate algorithms that enable agents to:
 
 Learn world models of their environment (latent dynamics, imagination rollouts).
 
-Act cooperatively in partially observable, multi-agent settings.
+Act cooperatively in multi-agent settings.
 
 Use teammate modeling (Theory of Mind, opponent shaping, intent prediction) to coordinate better with new partners (Zero-Shot Coordination).
 
@@ -28,7 +28,7 @@ Verify on single-agent tasks.
 
 Multi-Agent Dreamer (no ToM)
 
-Extend Dreamer to cooperative MARL with CTDE (centralized training, decentralized execution).
+Extend Dreamer to cooperative MARL.
 
 Baseline: IPPO / MAPPO.
 
@@ -42,11 +42,9 @@ Evaluate Zero-Shot Coordination.
 
 Benchmarks
 
-PettingZoo MPE (Simple Spread, Simple Tag).
+JaxMARL MPE (Simple Spread, Simple Tag).
 
-Overcooked-AI (ZSC, cross-play evaluation).
-
-(Stretch) Melting Pot for broader social generalization.
+JaxMARL Overcooked v2 (ZSC, cross-play evaluation).
 
 Deliverables (by Dec 2025)
 

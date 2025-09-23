@@ -1,0 +1,1 @@
+1. Implement a dreamer like world model in JAX
