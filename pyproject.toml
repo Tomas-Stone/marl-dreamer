@@ -9,7 +9,8 @@ readme = "README.md"
 requires-python = ">=3.10,<3.13"
 dependencies = [
     "torch (==2.1.0)",
-    "pettingzoo[mpe] (>=1.25.0,<2.0.0)"
+    "scipy (>=1.10)",
+    "jaxmarl (>=0.1.0,<0.2.0)"
 ]
 
 [tool.poetry]

@@ -1,0 +1,1 @@
+Here is where we'll use JaxMARL from FLAIR to interacty with environnments.
