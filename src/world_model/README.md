@@ -1,1 +1,0 @@
-Here, we'll build the world model from scratch in JAX.
