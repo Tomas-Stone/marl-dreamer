@@ -1,1 +1,2 @@
-Here is where we'll use JaxMARL from FLAIR to interacty with environnments.
+Here is where we'll use JaxMARL from FLAIR to wrap our environnments.
+We are wrapping just to understand the repo better, I imagine JaxMARL already wrapps env into a unified class architecture (you can sample, act and reset them all with the same functions)
