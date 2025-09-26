@@ -1,0 +1,9 @@
+# Default config for JaxMARL MPE Simple Spread
+env:
+  name: "MPE_simple_spread_v3"
+  num_agents: 3
+  max_cycles: 25
+agent:
+  name: "ippo"
+
+trainer:
