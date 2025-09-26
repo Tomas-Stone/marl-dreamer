@@ -1,0 +1,1 @@
+# Recurrent State-Space Model (RSSM) implementation in JAX for Dreamer agent
