@@ -1,1 +1,2 @@
-Here, we'll handle the agents logic.
+1. MAPPO is CTDE
+2. IPPO is DTDE
