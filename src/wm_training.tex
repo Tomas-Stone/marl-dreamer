@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{import}
+\subimport{PlotNeuralNet/}{init}
+\begin{document}
+\begin{tikzpicture}
+  \pic[shift={(0,0)}] at (0,0) {RightBandedBox={name=input,caption=Input, xlabel=256, zlabel=1, height=0.5, width=1, depth=1}};
+  \pic[shift={(1.5,0)}] at (input-east) {Box={name=hidden,caption=Hidden, xlabel=128, height=0.5, width=1, depth=1}};
+  \pic[shift={(3.0,0)}] at (hidden-east) {RightBandedBox={name=out,caption=Output, xlabel=10, zlabel=1, height=0.5, width=1, depth=1}};
+  \draw [connection] (input-east) -- (hidden-west);
+  \draw [connection] (hidden-east) -- (out-west);
+\end{tikzpicture}
+\end{document}
