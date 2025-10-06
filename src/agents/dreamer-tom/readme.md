@@ -1,1 +1,1 @@
-Goal here is apply a tom head to dreamer architecture, we'll first do this from the workshop paper. 
+Goal here is apply a tom head to dreamer architecture, we'll first do this from the workshop paper.   
