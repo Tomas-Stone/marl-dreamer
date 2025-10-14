@@ -1,2 +1,2 @@
-1. MAPPO is CTDE
-2. IPPO is DTDE
+1. MAPPO is CTDE. 
+2. IPPO is DTDE. 
