@@ -1,0 +1,18 @@
+# config.yaml
+
+# Environment settings
+ENV_NAME: "CarRacing-v2"
+IMAGE_SIZE: 64
+IMAGE_CHANNELS: 3
+
+# VAE model settings
+LATENT_DIM: 32
+
+# Training settings
+LEARNING_RATE: 0.001
+BATCH_SIZE: 64
+EPOCHS: 20
+
+# Data collection
+DATASET_PATH: "data/car_racing_dataset.pkl"
+NUM_EPISODES_TO_COLLECT: 500
