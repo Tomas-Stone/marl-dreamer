@@ -1,6 +1,6 @@
 # Dreaming of Others 🧠
 
-A multi-agent reinforcement learning system that extends world models to cooperative settings by learning to model teammates as structured latent processes.
+A multi-agent reinforcement learning system that extends world models to cooperative settings by learning to model teammates as structured latent processes. 
 
 ## Overview
 
