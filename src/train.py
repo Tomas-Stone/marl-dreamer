@@ -44,3 +44,7 @@ def train_vae(vae, dataloader, optimizer, epochs, device):
             
         avg_loss = total_loss / len(dataloader.dataset)
         print(f'===> Epoch: {epoch+1} Average loss: {avg_loss:.4f}')
+
+    return vae
+
+# TODO: Implement the RSSM training loop
